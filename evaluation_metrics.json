@@ -1,0 +1,184 @@
+{
+  "source_rows": 8175,
+  "usable_rows": 8077,
+  "dropped_rows": 98,
+  "intent_classes": 27,
+  "test_accuracy": 0.9931930693069307,
+  "classification_report": {
+    "cancel_order": {
+      "precision": 0.9833333333333333,
+      "recall": 0.9672131147540983,
+      "f1-score": 0.9752066115702479,
+      "support": 61.0
+    },
+    "change_order": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 61.0
+    },
+    "change_shipping_address": {
+      "precision": 0.9833333333333333,
+      "recall": 1.0,
+      "f1-score": 0.9915966386554622,
+      "support": 59.0
+    },
+    "check_cancellation_fee": {
+      "precision": 0.9830508474576272,
+      "recall": 1.0,
+      "f1-score": 0.9914529914529915,
+      "support": 58.0
+    },
+    "check_invoice": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 65.0
+    },
+    "check_payment_methods": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 58.0
+    },
+    "check_refund_policy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "complaint": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 58.0
+    },
+    "contact_customer_service": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 58.0
+    },
+    "contact_human_agent": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 59.0
+    },
+    "create_account": {
+      "precision": 0.9655172413793104,
+      "recall": 0.9824561403508771,
+      "f1-score": 0.9739130434782609,
+      "support": 57.0
+    },
+    "delete_account": {
+      "precision": 0.9830508474576272,
+      "recall": 0.9830508474576272,
+      "f1-score": 0.9830508474576272,
+      "support": 59.0
+    },
+    "delivery_options": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "delivery_period": {
+      "precision": 0.9836065573770492,
+      "recall": 1.0,
+      "f1-score": 0.9917355371900827,
+      "support": 60.0
+    },
+    "edit_account": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 56.0
+    },
+    "get_invoice": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 65.0
+    },
+    "get_refund": {
+      "precision": 0.9833333333333333,
+      "recall": 1.0,
+      "f1-score": 0.9915966386554622,
+      "support": 59.0
+    },
+    "newsletter_subscription": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 57.0
+    },
+    "payment_issue": {
+      "precision": 1.0,
+      "recall": 0.9538461538461539,
+      "f1-score": 0.9763779527559056,
+      "support": 65.0
+    },
+    "place_order": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 61.0
+    },
+    "recover_password": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 58.0
+    },
+    "registration_problems": {
+      "precision": 0.9649122807017544,
+      "recall": 0.9649122807017544,
+      "f1-score": 0.9649122807017544,
+      "support": 57.0
+    },
+    "review": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 63.0
+    },
+    "set_up_shipping_address": {
+      "precision": 1.0,
+      "recall": 0.9838709677419355,
+      "f1-score": 0.991869918699187,
+      "support": 62.0
+    },
+    "switch_account": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 57.0
+    },
+    "track_order": {
+      "precision": 0.9836065573770492,
+      "recall": 0.9836065573770492,
+      "f1-score": 0.9836065573770492,
+      "support": 61.0
+    },
+    "track_refund": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 62.0
+    },
+    "accuracy": 0.9931930693069307,
+    "macro avg": {
+      "precision": 0.9931016419166822,
+      "recall": 0.9932946689714627,
+      "f1-score": 0.9931599636294086,
+      "support": 1616.0
+    },
+    "weighted avg": {
+      "precision": 0.9932453539730524,
+      "recall": 0.9931930693069307,
+      "f1-score": 0.9931794293128419,
+      "support": 1616.0
+    }
+  }
+}
